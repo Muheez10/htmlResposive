@@ -1,0 +1,131 @@
+body{
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#first{
+    color: rgb(226, 202, 206);
+    text-align: center;
+    font-size: 5em;
+    margin-top: 2em;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: normal;   
+}
+
+.picture{
+    height: 390px;
+    width: 370px;
+    border-radius: 100%;
+}
+.photo{
+    margin-top: 3em;
+    text-align: center;
+    padding-left: 55px;
+}
+.responsive{
+    font-size: 50px;
+    color: #f7d7c8;
+}
+.view{
+    text-transform: uppercase;
+    color: #f7d7c8;
+    text-align: center;
+    font-weight: 700;
+}
+
+.fball{
+    height: 350px;
+    width: 300px;
+    border-radius: 22px;
+}
+
+.fball:hover{
+    cursor:pointer;
+    
+}
+
+.button{
+    border: 1px solid pink;
+    background-color: black;
+    color: pink;
+    padding: 11px 50px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.button:hover{
+    color: black;
+    background-color: white;
+}
+ 
+.security{
+    color:#f7d7c8;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 3em;
+}    
+
+.phone{
+    color:#f7d7c8;
+    text-decoration: none;
+    margin-top: 3.1em;
+    text-align: center !important;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2em;
+    font-weight: 500;
+}
+
+.picture1{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+.photo1{
+    margin-top: 3em;
+    text-align: center;
+    padding-left :50px;
+}
+
+.location{
+    color:#f7d7c8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: larger;
+    margin-left: 40px;
+}
+
+.responsive2{
+    font-size: 20px;
+}
+.footer{
+    background-color: rgb(49, 49, 49);
+    height: 30vh;
+    width: 100%;
+    color: white;
+    margin: 0;
+}
+
+.link{
+    color: white;
+    padding: 0em;  
+}
+
+@media screen and (max-width:1125px){
+    .responsive{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:1125px) {
+    .responsive2{
+        font-size: 5px;
+    }
+}
+
